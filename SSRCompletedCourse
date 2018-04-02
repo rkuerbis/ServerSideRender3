@@ -1,0 +1,6 @@
+Udemy completed course code completed April 2 2017.  Use as a
+boiler plate for server sided rendering of application by adding
+to the existing pages and the components and pages file folders
+when the route entries are upgraded for additional pages and their
+routes such as existing "/", "/users", "/admins", and page not
+found reroute to "/".  

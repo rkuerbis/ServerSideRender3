@@ -1,0 +1,1048 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>npm --version
+3.10.10
+
+C:\Users\ralph_2>node --version
+v6.11.0
+
+C:\Users\ralph_2>node --version
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ralph_2>cd ..
+
+C:\Users>cd ..
+
+C:\>cd C:\Ralph\React\fullstack1\gridercourse
+
+C:\Ralph\React\fullstack1\gridercourse>mkdir server
+
+C:\Ralph\React\fullstack1\gridercourse>cd server
+
+C:\Ralph\React\fullstack1\gridercourse\server>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (server)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Ralph\React\fullstack1\gridercourse\server\package.json:
+
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes)
+
+C:\Ralph\React\fullstack1\gridercourse\server>npm --version
+5.3.0
+
+C:\Ralph\React\fullstack1\gridercourse\server>node --version
+v8.3.0
+
+C:\Ralph\React\fullstack1\gridercourse\server>npm install --save express
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN server@1.0.0 No description
+npm WARN server@1.0.0 No repository field.
+
++ express@4.15.4
+added 42 packages in 22.57s
+
+C:\Ralph\React\fullstack1\gridercourse\server>cat package.json
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
+
+C:\Ralph\React\fullstack1\gridercourse\server>
+
+
+ralph_2@15F128CAA MINGW64 /c/ralph/react/fullstack1/gridercourse/server (master)
+$ git remote add origin git@github.com:RHKTech/fullstack1.git
+fatal: remote origin already exists.
+
+ralph_2@15F128CAA MINGW64 /c/ralph/react/fullstack1/gridercourse/server (master)
+$ git push -u origin master
+remote: Permission to RHKTech/fullstack1.git denied to rkuerbis.
+fatal: unable to access 'https://github.com/RHKTech/fullstack1.git/': The requested URL returned error: 403
+
+
+USED GIT DESKTOP TO CHANGE USER TO /RHKTECH AND UPLOAD TO GIT HUB
+
+
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>cd C:\Ralph\React\fullstack1\gridercourse
+
+C:\Ralph\React\fullstack1\gridercourse>cd server
+
+C:\Ralph\React\fullstack1\gridercourse\server>heroku -v
+Heroku CLI submits usage information back to Heroku. If you would like to disable this, set `skip_analytics: true` in C:\Users\ralph_2\AppData\Local/heroku/config.json
+heroku-cli: Installing CLI... 19.76MB/19.76MB
+ !    `-v` is not a heroku command.
+ !    Perhaps you meant `-h`.
+ !    See `heroku help` for a list of available commands.
+
+C:\Ralph\React\fullstack1\gridercourse\server>heroku --version
+heroku-cli: Installing CLI... 19.76MB/19.76MB
+heroku/toolbelt/3.43.13 (i386-mingw32) ruby/2.1.7
+heroku-cli/5.12.0-0ab8352 (windows-386) go1.7.5
+You have no installed plugins.
+heroku-cli: Updating... done.
+
+C:\Ralph\React\fullstack1\gridercourse\server>heroku login
+WARNING: This is the legacy Heroku CLI with limited functionality. Please install the latest CLI.
+WARNING: Installation instructions are at https://cli.heroku.com
+Enter your Heroku credentials:
+Email: rkuerbis@gmail.com
+Password: ******************
+Enter your Heroku credentials:
+Email: rkuerbis@gmail.com
+Password: **********
+Enter your Heroku credentials:
+Email: rkuerbis@gmail.com
+Password: *********************
+Logged in as rkuerbis@gmail.com
+
+C:\Ralph\React\fullstack1\gridercourse\server>heroku create
+WARNING: This is the legacy Heroku CLI with limited functionality. Please install the latest CLI.
+WARNING: Installation instructions are at https://cli.heroku.com
+Creating app... done, frozen-springs-34305
+https://frozen-springs-34305.herokuapp.com/ | https://git.heroku.com/frozen-springs-34305.git
+
+C:\Ralph\React\fullstack1\gridercourse\server>
+
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>cd C:\Ralph\React\fullstack1\gridercourse
+
+C:\Ralph\React\fullstack1\gridercourse>cd server
+
+C:\Ralph\React\fullstack1\gridercourse\server>heroku -v
+Heroku CLI submits usage information back to Heroku. If you would like to disable this, set `skip_analytics: true` in C:\Users\ralph_2\AppData\Local/heroku/config.json
+heroku-cli: Installing CLI... 19.76MB/19.76MB
+ !    `-v` is not a heroku command.
+ !    Perhaps you meant `-h`.
+ !    See `heroku help` for a list of available commands.
+
+C:\Ralph\React\fullstack1\gridercourse\server>heroku --version
+heroku-cli: Installing CLI... 19.76MB/19.76MB
+heroku/toolbelt/3.43.13 (i386-mingw32) ruby/2.1.7
+heroku-cli/5.12.0-0ab8352 (windows-386) go1.7.5
+You have no installed plugins.
+heroku-cli: Updating... done.
+
+C:\Ralph\React\fullstack1\gridercourse\server>heroku login
+WARNING: This is the legacy Heroku CLI with limited functionality. Please install the latest CLI.
+WARNING: Installation instructions are at https://cli.heroku.com
+Enter your Heroku credentials:
+Email: rkuerbis@gmail.com
+Password: ******************
+Enter your Heroku credentials:
+Email: rkuerbis@gmail.com
+Password: **********
+Enter your Heroku credentials:
+Email: rkuerbis@gmail.com
+Password: *********************
+Logged in as rkuerbis@gmail.com
+
+C:\Ralph\React\fullstack1\gridercourse\server>heroku create
+WARNING: This is the legacy Heroku CLI with limited functionality. Please install the latest CLI.
+WARNING: Installation instructions are at https://cli.heroku.com
+Creating app... done, frozen-springs-34305
+https://frozen-springs-34305.herokuapp.com/ | https://git.heroku.com/frozen-springs-34305.git
+
+C:\Ralph\React\fullstack1\gridercourse\server>git remote add heroku https://git.heroku.com/frozen-springs-34305.git
+fatal: remote heroku already exists.
+
+C:\Ralph\React\fullstack1\gridercourse\server>git push heroku master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 3.10 KiB | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Node.js app detected
+remote:
+remote: -----> Creating runtime environment
+remote:
+remote:        NPM_CONFIG_LOGLEVEL=error
+remote:        NPM_CONFIG_PRODUCTION=true
+remote:        NODE_VERBOSE=false
+remote:        NODE_ENV=production
+remote:        NODE_MODULES_CACHE=true
+remote:
+remote: -----> Installing binaries
+remote:        engines.node (package.json):  8.3.0
+remote:        engines.npm (package.json):   5.3.0
+remote:
+remote:        Resolving node version 8.3.0...
+remote:        Downloading and installing node 8.3.0...
+remote:        npm 5.3.0 already installed with node
+remote:
+remote: -----> Restoring cache
+remote:        Skipping cache restore (not-found)
+remote:
+remote: -----> Building dependencies
+remote:        Installing node modules (package.json + package-lock)
+remote:        added 42 packages in 2.198s
+remote:
+remote: -----> Caching build
+remote:        Clearing previous node cache
+remote:        Saving 2 cacheDirectories (default):
+remote:        - node_modules
+remote:        - bower_components (nothing to cache)
+remote:
+remote: -----> Build succeeded!
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 17.1M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://frozen-springs-34305.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/frozen-springs-34305.git
+ * [new branch]      master -> master
+
+C:\Ralph\React\fullstack1\gridercourse\server>
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>Cd Ralph\React\fullstack1\gridercourse\server
+The system cannot find the path specified.
+
+C:\Users\ralph_2>Cd c:\Ralph\React\fullstack1\gridercourse\server
+
+c:\Ralph\React\fullstack1\gridercourse\server>npm install --save passport passport-google-oauth20
+npm WARN server@1.0.0 No description
+npm WARN server@1.0.0 No repository field.
+
++ passport@0.4.0
++ passport-google-oauth20@1.0.0
+added 7 packages in 20.082s
+
+c:\Ralph\React\fullstack1\gridercourse\server>
+
+Cd c:\Ralph\React\fullstack1\gridercourse\server
+
+
+clientID   28442417598-brjef036kvts2cnmjr9pddiq9no0tski.apps.googleusercontent.com 
+clientSecret   IcjTRw0ylhvBEQcmcx2JZji8 
+
+
+
+
+C:\Ralph\React\fullstack1\gridercourse\server>npm run dev
+
+> server@1.0.0 dev C:\Ralph\React\fullstack1\gridercourse\server
+> nodemon index.js
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node index.js`
+
+
+
+To connect using the mongo shell:
+mongo ds139124.mlab.com:39124/rhkemaily-dev -u <dbuser> -p <dbpassword>
+To connect using a driver via the standard MongoDB URI (what's this?):
+
+mongodb://<dbuser>:<dbpassword>@ds139124.mlab.com:39124/rhkemaily-dev
+
+C:\Ralph\React\fullstack1\gridercourse\server>npm install --save mongoose
+npm WARN server@1.0.0 No description
+npm WARN server@1.0.0 No repository field.
+
++ mongoose@4.11.11
+added 28 packages in 37.228s
+
+
+   ╭─────────────────────────────────────╮
+   │                                     │
+   │   Update available 5.3.0 → 5.4.2    │
+   │     Run npm i -g npm to update      │
+   │                                     │
+   ╰─────────────────────────────────────╯
+
+
+C:\Ralph\React\fullstack1\gridercourse\server>
+
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>cd C:\Ralph\React\fullstack1\gridercourse\server
+
+C:\Ralph\React\fullstack1\gridercourse\server>
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>cd C:\Ralph\React\fullstack1\gridercourse\server
+
+C:\Ralph\React\fullstack1\gridercourse\server>npm install --save cookie-session
+npm WARN server@1.0.0 No description
+npm WARN server@1.0.0 No repository field.
+
++ cookie-session@1.3.1
+added 4 packages in 24.228s
+
+C:\Ralph\React\fullstack1\gridercourse\server>
+
+google credent. for emaily-prod
+clientid
+
+748089654617-d4s7m2ls3ip4sv8k8fjf18ckjb1o0s0s.apps.googleusercontent.com 
+
+clientsecret
+
+dygkMKDX_sIJn3-SRDQ9iYBG 
+
+SET UP CLIENT SERVER IN MAIN SERVER
+
+C:\Ralph\React\fullstack1\gridercourse\server>npm install -g create-react-app
+
+
+C:\Ralph\React\fullstack1\gridercourse\server>create-react-app client
+
+
+
+
+├─ path-exists@2.1.0
+├─ path-is-absolute@1.0.1
+├─ path-is-inside@1.0.2
+├─ path-key@2.0.1
+├─ path-parse@1.0.5
+├─ path-to-regexp@0.1.7
+├─ path-type@1.1.0
+├─ pbkdf2@3.0.14
+├─ pify@2.3.0
+├─ pinkie-promise@2.0.1
+├─ pinkie@2.0.4
+├─ pkg-dir@1.0.0
+├─ pluralize@4.0.0
+├─ portfinder@1.0.13
+├─ postcss-calc@5.3.1
+├─ postcss-colormin@2.2.2
+├─ postcss-convert-values@2.6.1
+├─ postcss-discard-comments@2.0.4
+├─ postcss-discard-duplicates@2.1.0
+├─ postcss-discard-empty@2.1.0
+├─ postcss-discard-overridden@0.1.1
+├─ postcss-discard-unused@2.2.3
+├─ postcss-filter-plugins@2.0.2
+├─ postcss-flexbugs-fixes@3.2.0
+├─ postcss-load-config@1.2.0
+├─ postcss-load-options@1.2.0
+├─ postcss-load-plugins@2.3.0
+├─ postcss-loader@2.0.6
+├─ postcss-merge-idents@2.1.7
+├─ postcss-merge-longhand@2.0.2
+├─ postcss-merge-rules@2.1.2
+├─ postcss-message-helpers@2.0.0
+├─ postcss-minify-font-values@1.0.5
+├─ postcss-minify-gradients@1.0.5
+├─ postcss-minify-params@1.2.2
+├─ postcss-minify-selectors@2.1.1
+├─ postcss-modules-extract-imports@1.2.0
+├─ postcss-modules-local-by-default@1.2.0
+├─ postcss-modules-scope@1.1.0
+├─ postcss-modules-values@1.3.0
+├─ postcss-normalize-charset@1.1.1
+├─ postcss-normalize-url@3.0.8
+├─ postcss-ordered-values@2.2.3
+├─ postcss-reduce-idents@2.4.0
+├─ postcss-reduce-initial@1.0.1
+├─ postcss-reduce-transforms@1.0.4
+├─ postcss-selector-parser@2.2.3
+├─ postcss-svgo@2.1.6
+├─ postcss-unique-selectors@2.0.2
+├─ postcss-value-parser@3.3.0
+├─ postcss-zindex@2.2.0
+├─ postcss@5.2.17
+├─ prelude-ls@1.1.2
+├─ prepend-http@1.0.4
+├─ preserve@0.2.0
+├─ pretty-bytes@4.0.2
+├─ pretty-error@2.1.1
+├─ pretty-format@20.0.3
+├─ private@0.1.7
+├─ process-nextick-args@1.0.7
+├─ process@0.11.10
+├─ progress@2.0.0
+├─ promise@8.0.1
+├─ prop-types@15.5.10
+├─ proxy-addr@1.1.5
+├─ prr@0.0.0
+├─ pseudomap@1.0.2
+├─ public-encrypt@4.0.0
+├─ punycode@1.4.1
+├─ q@1.5.0
+├─ qs@6.5.0
+├─ query-string@4.3.4
+├─ querystring-es3@0.2.1
+├─ querystring@0.2.0
+├─ querystringify@1.0.0
+├─ randomatic@1.1.7
+├─ randombytes@2.0.5
+├─ range-parser@1.2.0
+├─ rc@1.2.1
+├─ react-dev-utils@4.0.1
+├─ react-dom@15.6.1
+├─ react-error-overlay@2.0.1
+├─ react-scripts@1.0.13
+├─ react@15.6.1
+├─ read-all-stream@3.1.0
+├─ read-pkg-up@1.0.1
+├─ read-pkg@1.1.0
+├─ readable-stream@2.3.3
+├─ readdirp@2.1.0
+├─ recursive-readdir@2.2.1
+├─ redent@1.0.0
+├─ reduce-css-calc@1.3.0
+├─ reduce-function-call@1.0.2
+├─ regenerate@1.3.3
+├─ regenerator-runtime@0.11.0
+├─ regenerator-transform@0.9.11
+├─ regex-cache@0.4.4
+├─ regexpu-core@1.0.0
+├─ registry-auth-token@3.3.1
+├─ registry-url@3.1.0
+├─ regjsgen@0.2.0
+├─ regjsparser@0.1.5
+├─ relateurl@0.2.7
+├─ remove-trailing-separator@1.1.0
+├─ renderkid@2.0.1
+├─ repeat-element@1.1.2
+├─ repeat-string@1.6.1
+├─ repeating@2.0.1
+├─ require-directory@2.1.1
+├─ require-from-string@1.2.1
+├─ require-main-filename@1.0.1
+├─ require-uncached@1.0.3
+├─ requires-port@1.0.0
+├─ resolve-dir@1.0.1
+├─ resolve-from@1.0.1
+├─ resolve@1.4.0
+├─ restore-cursor@2.0.0
+├─ right-align@0.1.3
+├─ rimraf@2.6.2
+├─ ripemd160@2.0.1
+├─ run-async@2.3.0
+├─ rx-lite-aggregates@4.0.8
+├─ rx-lite@4.0.8
+├─ safe-buffer@5.1.1
+├─ sane@1.6.0
+├─ sax@1.2.4
+├─ schema-utils@0.3.0
+├─ select-hose@2.0.0
+├─ selfsigned@1.10.1
+├─ semver-diff@2.1.0
+├─ semver@5.4.1
+├─ send@0.15.4
+├─ serve-index@1.9.0
+├─ serve-static@1.12.4
+├─ serviceworker-cache-polyfill@4.0.0
+├─ set-blocking@2.0.0
+├─ set-immediate-shim@1.0.1
+├─ setimmediate@1.0.5
+├─ setprototypeof@1.0.3
+├─ settle-promise@1.0.0
+├─ sha.js@2.4.8
+├─ shebang-command@1.2.0
+├─ shebang-regex@1.0.0
+├─ shell-quote@1.6.1
+├─ shellwords@0.1.1
+├─ signal-exit@3.0.2
+├─ slash@1.0.0
+├─ slice-ansi@0.0.4
+├─ slide@1.1.6
+├─ sockjs-client@1.1.4
+├─ sockjs@0.3.18
+├─ sort-keys@1.1.2
+├─ source-list-map@0.1.8
+├─ source-map-support@0.4.18
+├─ source-map@0.5.7
+├─ spdx-correct@1.0.2
+├─ spdx-expression-parse@1.0.4
+├─ spdx-license-ids@1.2.2
+├─ spdy-transport@2.0.20
+├─ spdy@3.4.7
+├─ sprintf-js@1.0.3
+├─ sshpk@1.13.1
+├─ statuses@1.3.1
+├─ stream-browserify@2.0.1
+├─ stream-http@2.7.2
+├─ strict-uri-encode@1.1.0
+├─ string_decoder@0.10.31
+├─ string-length@1.0.1
+├─ string-width@1.0.2
+├─ stringstream@0.0.5
+├─ strip-ansi@3.0.1
+├─ strip-bom@2.0.0
+├─ strip-eof@1.0.0
+├─ strip-indent@1.0.1
+├─ strip-json-comments@2.0.1
+├─ style-loader@0.18.2
+├─ supports-color@3.2.3
+├─ svgo@0.7.2
+├─ sw-precache-webpack-plugin@0.11.4
+├─ sw-precache@5.2.0
+├─ sw-toolbox@3.6.0
+├─ symbol-tree@3.2.2
+├─ table@4.0.1
+├─ tapable@0.2.8
+├─ test-exclude@4.1.1
+├─ text-table@0.2.0
+├─ throat@3.2.0
+├─ through@2.3.8
+├─ thunky@0.1.0
+├─ time-stamp@2.0.0
+├─ timed-out@3.1.3
+├─ timers-browserify@2.0.4
+├─ tmp@0.0.33
+├─ tmpl@1.0.4
+├─ to-arraybuffer@1.0.1
+├─ to-fast-properties@1.0.3
+├─ toposort@1.0.3
+├─ tough-cookie@2.3.3
+├─ tr46@0.0.3
+├─ trim-newlines@1.0.0
+├─ trim-right@1.0.1
+├─ tryit@1.0.3
+├─ tty-browserify@0.0.0
+├─ tunnel-agent@0.6.0
+├─ tweetnacl@0.14.5
+├─ type-check@0.3.2
+├─ type-is@1.6.15
+├─ typedarray@0.0.6
+├─ ua-parser-js@0.7.14
+├─ uglify-js@2.8.29
+├─ uglify-to-browserify@1.0.2
+├─ uglifyjs-webpack-plugin@0.4.6
+├─ uniq@1.0.1
+├─ uniqid@4.1.1
+├─ uniqs@2.0.0
+├─ universalify@0.1.1
+├─ unpipe@1.0.0
+├─ unzip-response@1.0.2
+├─ update-notifier@1.0.3
+├─ upper-case@1.1.3
+├─ urijs@1.18.12
+├─ url-loader@0.5.9
+├─ url-parse-lax@1.0.0
+├─ url-parse@1.1.9
+├─ url@0.11.0
+├─ util-deprecate@1.0.2
+├─ util@0.10.3
+├─ utila@0.3.3
+├─ utils-merge@1.0.0
+├─ uuid@2.0.3
+├─ validate-npm-package-license@3.0.1
+├─ vary@1.1.2
+├─ vendors@1.0.1
+├─ verror@1.10.0
+├─ vm-browserify@0.0.4
+├─ walker@1.0.7
+├─ watch@0.10.0
+├─ watchpack@1.4.0
+├─ wbuf@1.7.2
+├─ webidl-conversions@4.0.2
+├─ webpack-dev-middleware@1.12.0
+├─ webpack-dev-server@2.7.1
+├─ webpack-manifest-plugin@1.2.1
+├─ webpack-sources@1.0.1
+├─ webpack@3.5.1
+├─ websocket-driver@0.7.0
+├─ websocket-extensions@0.1.2
+├─ whatwg-encoding@1.0.1
+├─ whatwg-fetch@2.0.3
+├─ whatwg-url@4.8.0
+├─ whet.extend@0.9.9
+├─ which-module@1.0.0
+├─ which@1.3.0
+├─ widest-line@1.0.0
+├─ window-size@0.1.0
+├─ wordwrap@0.0.2
+├─ worker-farm@1.5.0
+├─ wrap-ansi@2.1.0
+├─ wrappy@1.0.2
+├─ write-file-atomic@1.3.4
+├─ write@0.2.1
+├─ xdg-basedir@2.0.0
+├─ xml-char-classes@1.0.0
+├─ xml-name-validator@2.0.1
+├─ xtend@4.0.1
+├─ y18n@3.2.1
+├─ yallist@2.1.2
+├─ yargs-parser@5.0.0
+└─ yargs@7.1.0
+Done in 227.29s.
+
+Success! Created client at C:\Ralph\React\fullstack1\gridercourse\server\client
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server.
+
+  yarn build
+    Bundles the app into static files for production.
+
+  yarn test
+    Starts the test runner.
+
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd client
+  yarn start
+
+Happy hacking!
+
+C:\Ralph\React\fullstack1\gridercourse\server>cd client
+
+C:\Ralph\React\fullstack1\gridercourse\server\client>ls
+README.md  node_modules  package.json  public  src  yarn.lock
+
+C:\Ralph\React\fullstack1\gridercourse\server\client>
+
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>cd C:\Ralph\React\fullstack1\gridercourse\server
+
+C:\Ralph\React\fullstack1\gridercourse\server>npm install --save concurrently
+npm WARN server@1.0.0 No description
+npm WARN server@1.0.0 No repository field.
+
++ concurrently@3.5.0
+added 15 packages in 33.688s
+
+C:\Ralph\React\fullstack1\gridercourse\server>
+
+
+async function fetchAlbums() {
+    const res = await fetch('https://rallycoding.herokuapp.com/api/music_albums')
+    const json = await res.json();
+    
+    console.log(json);
+}  
+
+fetchAlbums();
+
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>Cd c:\Ralph\React\fullstack1\gridercourse\server
+
+c:\Ralph\React\fullstack1\gridercourse\server>cd client
+
+c:\Ralph\React\fullstack1\gridercourse\server\client>npm install --save redux react-redux react-router-dom
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\jest.cmd as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\jest
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\jest as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\jest
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\uglifyjs.cmd as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\uglify-js
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\uglifyjs as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\uglify-js
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\html-minifier\node_modules\.bin\uglifyjs.cmd as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\html-minifier\node_modules\uglify-js
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\html-minifier\node_modules\.bin\uglifyjs as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\html-minifier\node_modules\uglify-js
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\esvalidate.cmd as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\esprima
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\esparse.cmd as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\esprima
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\esvalidate as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\esprima
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\esparse as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\esprima
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\espree\node_modules\.bin\acorn.cmd as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\espree\node_modules\acorn
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\espree\node_modules\.bin\acorn as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\espree\node_modules\acorn
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\browserslist.cmd as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\browserslist
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\.bin\browserslist as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\browserslist
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\autoprefixer\node_modules\.bin\browserslist.cmd as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\autoprefixer\node_modules\browserslist
+npm WARN gentlyRm not removing c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\autoprefixer\node_modules\.bin\browserslist as it wasn't installed by c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\autoprefixer\node_modules\browserslist
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN react-router-dom@4.2.2 requires a peer of react@>=15 but none was installed.
+npm WARN react-redux@5.0.6 requires a peer of react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0 but none was installed.
+npm WARN react-router@4.2.0 requires a peer of react@>=15 but none was installed.
+
++ react-router-dom@4.2.2
++ react-redux@5.0.6
++ redux@3.7.2
+added 11 packages, removed 1035 packages and updated 20 packages in 113.131s
+
+c:\Ralph\React\fullstack1\gridercourse\server\client>
+
+
+c:\Ralph\React\fullstack1\gridercourse\server\client>cd ..
+
+c:\Ralph\React\fullstack1\gridercourse\server>npm run dev
+
+> server@1.0.0 dev c:\Ralph\React\fullstack1\gridercourse\server
+> concurrently "npm run server" "npm run client"
+
+[0]
+[0] > server@1.0.0 server c:\Ralph\React\fullstack1\gridercourse\server
+[0] > nodemon index.js
+[0]
+[1]
+[1] > server@1.0.0 client c:\Ralph\React\fullstack1\gridercourse\server
+[1] > npm run start --prefix client
+[1]
+[1]
+[1] > client@0.1.0 start c:\Ralph\React\fullstack1\gridercourse\server\client
+[1] > react-scripts start
+[1]
+[1] 'react-scripts' is not recognized as an internal or external command,
+[1] operable program or batch file.
+[1] npm
+[1]  ERR! code ELIFECYCLE
+[1] npm ERR! errno 1
+[1] npm ERR! client@0.1.0 start: `react-scripts start`
+[1] npm ERR! Exit status 1
+[1] npm ERR!
+[1] npm ERR! Failed at the client@0.1.0 start script.
+[1] npm
+[1]  ERR! This is probably not a problem with npm. There is likely additional logging output above.
+[1]
+[1] npm ERR! A complete log of this run can be found in:
+[1] npm ERR!     C:\Users\ralph_2\AppData\Roaming\npm-cache\_logs\2017-09-27T10_18_02_877Z-debug.log
+[1] npm
+[1]  ERR! code ELIFECYCLE
+[1] npm ERR! errno 1
+[1] npm ERR! server@1.0.0 client: `npm run start --prefix client`
+[1] npm ERR! Exit status 1
+[1] npm ERR!
+[1]
+[1] npm ERR! Failed at the server@1.0.0 client script.
+[1] npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+[1]
+[1] npm ERR!
+[1]  A complete log of this run can be found in:
+[1] npm ERR!     C:\Users\ralph_2\AppData\Roaming\npm-cache\_logs\2017-09-27T10_18_03_196Z-debug.log
+[1] npm run client exited with code 1
+[0] [nodemon] 1.11.0
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching: *.*
+[0] [nodemon] starting `node index.js`
+[0] (node:3968) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[0] Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[0] (node:3968) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[0] Terminate batch job (Y/N)?
+Terminate batch job (Y/N)?
+^C
+[0] ^C
+c:\Ralph\React\fullstack1\gridercourse\server>[0] npm run server exited with code 1
+
+
+c:\Ralph\React\fullstack1\gridercourse\server>cd client
+
+c:\Ralph\React\fullstack1\gridercourse\server\client>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 6E4E-7424
+
+ Directory of c:\Ralph\React\fullstack1\gridercourse\server\client
+
+2017-09-27  02:46 AM    <DIR>          .
+2017-09-27  02:46 AM    <DIR>          ..
+2017-09-24  01:46 AM               285 .gitignore
+2017-09-24  03:54 AM    <DIR>          etc
+2017-09-27  02:46 AM    <DIR>          node_modules
+2017-09-27  02:46 AM             8,629 package-lock.json
+2017-09-27  02:46 AM               516 package.json
+2017-09-24  01:46 AM    <DIR>          public
+2017-09-24  01:46 AM           105,919 README.md
+2017-09-27  03:05 AM    <DIR>          src
+2017-09-24  01:46 AM           239,305 yarn.lock
+               5 File(s)        354,654 bytes
+               6 Dir(s)  332,280,487,936 bytes free
+
+c:\Ralph\React\fullstack1\gridercourse\server\client>npm install
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall c:\Ralph\React\fullstack1\gridercourse\server\client\node_modules\uglifyjs-webpack-plugin
+> node lib/post_install.js
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1142 packages, removed 7 packages and updated 74 packages in 222.549s
+
+c:\Ralph\React\fullstack1\gridercourse\server\client>
+
+c:\Ralph\React\fullstack1\gridercourse\server>npm run dev
+
+> server@1.0.0 dev c:\Ralph\React\fullstack1\gridercourse\server
+> concurrently "npm run server" "npm run client"
+
+[1]
+[1] > server@1.0.0 client c:\Ralph\React\fullstack1\gridercourse\server
+[1] > npm run start --prefix client
+[1]
+[0]
+[0] > server@1.0.0 server c:\Ralph\React\fullstack1\gridercourse\server
+[0] > nodemon index.js
+[0]
+[0] [nodemon] 1.11.0
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching: *.*
+[0] [nodemon] starting `node index.js`
+[1]
+[1] > client@0.1.0 start c:\Ralph\React\fullstack1\gridercourse\server\client
+[1] > react-scripts start
+[1]
+[0] (node:19596) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[0] Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[1] [HPM] Proxy created: function (pathname) {
+[1]         return mayProxy(pathname) && pathname.match(context);
+[1]       }  ->  http://localhost:5000/
+1] [HPM] Proxy created: function (pathname) {
+[1]         return mayProxy(pathname) && pathname.match(context);
+[1]       }  ->  http://localhost:5000/
+[1] Starting the development server...
+[1]
+[1] Compiled successfully!
+[1]
+[1] You can now view client in the browser.
+[1]
+[1]   Local:            http://localhost:3000/
+[1]   On Your Network:  http://192.168.246.1:3000/
+[1]
+[1] Note that the development build is not optimized.
+[1] To create a production build, use yarn build.
+[1]
+[0] (node:19596) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[1] Compiling...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node index.js`
+[1] Compiled successfully!
+[0] (node:19132) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[0] Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+
+
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ralph_2>Cd c:\Ralph\React\fullstack1\gridercourse\server
+
+c:\Ralph\React\fullstack1\gridercourse\server>cd client
+
+c:\Ralph\React\fullstack1\gridercourse\server\client>npm install --save react-stripe-checkout
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ react-stripe-checkout@2.6.3
+added 116 packages and removed 7 packages in 146.32s
+
+c:\Ralph\React\fullstack1\gridercourse\server\client>
+
+
+Your environment has been set up for using Node.js 9.5.0 (x64) and npm.
+
+C:\Users\rkuer>C:\>cd C:\Ralph\React\fullstack1\gridercourse
+'C:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rkuer>cd C:\Ralph\React\fullstack1\gridercourse
+The system cannot find the path specified.
+
+C:\Users\rkuer>cd C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstack1\gridercourse\server
+
+C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstack1\gridercourse\server>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (server) npm WARN init canceled
+
+C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstack1\gridercourse\server>
+
+C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstack1\gridercourse\server>npm install
+npm WARN server@1.0.0 No description
+npm WARN server@1.0.0 No repository field.
+
+added 96 packages in 4.773s
+
+C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstack1\gridercourse\server>
+
+
+cd C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstackSGrider
+
+
+cd C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstackSGrider\ServerSideRender2\server>
+
+C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstackSGrider\ServerSideRender2\server>npm install -g nodemon
+C:\Users\rkuer\AppData\Roaming\npm\nodemon -> C:\Users\rkuer\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon.js
+
+> nodemon@1.17.2 postinstall C:\Users\rkuer\AppData\Roaming\npm\node_modules\nodemon
+> node -e "console.log('\u001b[32mLove nodemon? You can now support the project via the open collective:\u001b[22m\u001b[39m\n > \u001b[96m\u001b[1mhttps://opencollective.com/nodemon/donate\u001b[0m\n')" || exit 0
+
+Love nodemon? You can now support the project via the open collective:
+ > https://opencollective.com/nodemon/donate
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\nodemon\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ nodemon@1.17.2
+added 245 packages in 9.706s
+
+cd C:\Ralph\WEBDEVELOPMENT\JavaDevelopment\fullstackSGrider\ServerSideRender2\server
+
+
+
+npm run dev
+
+https://react-ssr-api.herokuapp.com/
+
+
+"HIGHER ORDER COMPONENTS" LOOK UP REACT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
